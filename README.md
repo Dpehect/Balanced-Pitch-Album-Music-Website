@@ -1,5 +1,5 @@
 # Balanced-Pitch-Album-Music-Website
-
+Live at https://balanced-pitch-album-music-website.vercel.app/
 Balanced Pitch Album Music Website is a React and Vite based artist website for a music project identity. The site presents Balanced Pitch as the primary artist brand, uses SoftBridge Solutions as the supporting organization, and combines editorial landing-page composition with scroll-driven motion, global audio playback, multi-page navigation, and static media delivery.
 
 The project goal is to provide a production-ready music/album presentation surface with a strong visual identity, client-side route transitions, GSAP-based scroll behavior, and deploy-safe Vercel configuration for a static Vite build.
