@@ -1,0 +1,24 @@
+.animated-link {
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  padding-bottom: 5px;
+}
+
+.animated-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: currentColor;
+  bottom: 0;
+  left: 0;
+
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.4s ease-out;
+}
+
+.animated-link:hover::after {
+  transform: scaleX(1);
+}
