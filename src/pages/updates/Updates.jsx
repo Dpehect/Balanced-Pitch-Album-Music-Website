@@ -2,7 +2,7 @@ import "./Updates.css";
 import { useEffect } from "react";
 import { Link } from "react-router";
 import Footer from "../../components/Footer/Footer";
-import Transition from "../../components/transition/Transition";
+import Transition from "../../components/Transition/Transition";
 import ParallaxImage from "../../components/ParallaxImage/ParallaxImage";
 import { ReactLenis } from "lenis/react";
 import gsap from "gsap";
